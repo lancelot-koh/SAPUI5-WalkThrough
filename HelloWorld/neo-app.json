@@ -1,0 +1,30 @@
+{
+  "routes": [
+  	{
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/NorthWind",
+      "target": {
+        "type": "destination",
+        "name": "NorthWind"
+      },
+      "description": "NorthWind"
+    }
+  ]
+}

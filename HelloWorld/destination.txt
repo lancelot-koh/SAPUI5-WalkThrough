@@ -1,0 +1,20 @@
+Name: NorthWind
+Type: HTTP
+Description:	
+URL: http://services.odata.org/
+Proxy Type:	Internet
+Authentication:	NoAuthentication
+
+Additional Properties(for OData)
+WebIDEEnabled: true
+WebIDESystem: Northwind
+WebIDEUsage: odata_gen
+
+other property:
+TrustAll
+HTML5.ConnectionTimeoutInSeconds
+HTML5.SocketReadTimeoutInSeconds
+
+know how to setup cloud connector to expose onpremise data
+
+
